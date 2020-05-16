@@ -19,16 +19,16 @@ public class MenuPrincipal {
         Scanner opcionSeleccionada= new Scanner (System.in);
         String opcionMenu;
         //Menu desplegar
-        System.out.println("****************************************");
-        System.out.println("         CRUD  DE JAVA EN CONSOLA       ");
-        System.out.println("****************************************");
-        System.out.println(" Opciones:");
-        System.out.println("            1.Crear Registros           ");
-        System.out.println("            2.Consultar Registros       ");
-        System.out.println("            3.Editar Registros       ");
+        System.out.println("---------------------------------------");
+        System.out.println("         CRUD  DE JAVA MODIFICADO CARLOS     ");
+        System.out.println("-----------------------------------------");
+        System.out.println(" Opciones Disponibles:");
+        System.out.println("            1.Crear un Registro           ");
+        System.out.println("            2.Consultar Los Registros       ");
+        System.out.println("            3.Editar un Registros       ");
         System.out.println("            4.Eliminar Registros        ");
-        System.out.println("            5.Salir");
-        System.out.println("****************************************");
+        System.out.println("            5.Exit");
+        System.out.println("-----------------------------------------");
         System.out.println("Seleccionar Opcion");
         opcionMenu = opcionSeleccionada.next();
         
@@ -49,11 +49,11 @@ public class MenuPrincipal {
             System.exit(0);
             break;
         default:
-            System.out.println("Seleccion Invalida!");
+            System.out.println("Seleccion NO VALIDA!");
             break;
     }
   }
 }
 
 
-    
+    //Editado por Carlos Daniel Privado
