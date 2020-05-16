@@ -7,16 +7,16 @@ public class Persona {
     private String nomPersona;
     private String emailPersona;
     private String telPersona;
-    
-    
+    //Clases necesarias
+    // Encapsulamiento
     public int getIdPersona(){
         return idPersona;
     }
-    
+    //get para obtener informacion o datos
     public void setIdPersona(int idPersona) {
         this.idPersona = idPersona;
     }
-    
+    // set para colocar o mostrar datos
     public String getNombrePersona(){
         return nomPersona;
     }
@@ -42,3 +42,5 @@ public class Persona {
     }
     
 }
+
+//Editado por Bertha marisol ortiz ramos
